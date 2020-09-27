@@ -7,19 +7,11 @@ package leetcode;
 public class Solution5 {
     public String longestPalindrome(String s){
         if (s.length()==0) return "";
-        return "";
+        int[] range=new int[2];
+
     }
-    public boolean isReverse(String s){
-        int left=0;
-        int right=s.length()-1;
-        boolean isTrue=false;
-        while (left<right){
-            if (s.charAt(left)!=s.charAt(right)) {
-                return false;
-            }
-            left++;
-            right--;
-        }
-        return true;
+    public static int findLongest(char str,int low,int[] range){
+        int high=low;
+
     }
 }
