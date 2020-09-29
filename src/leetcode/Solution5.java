@@ -8,10 +8,15 @@ public class Solution5 {
     public String longestPalindrome(String s){
         if (s.length()==0) return "";
         int[] range=new int[2];
+        char[] ch=s.toCharArray();
 
     }
-    public static int findLongest(char str,int low,int[] range){
+    public static int findLongest(char[] str,int low,int[] range){
         int high=low;
-
+        while (high<str.length&&str[high+1]==str[low]){
+            high++;
+        }
+        int ans=high;
+        //while ()
     }
 }
