@@ -9,7 +9,7 @@ public class Solution5 {
         if (s.length()==0) return "";
         int[] range=new int[2];
         char[] ch=s.toCharArray();
-
+        return "";
     }
     public static int findLongest(char[] str,int low,int[] range){
         int high=low;
@@ -17,6 +17,7 @@ public class Solution5 {
             high++;
         }
         int ans=high;
+        return 0;
         //while ()
     }
 }
